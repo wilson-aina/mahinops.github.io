@@ -1,5 +1,5 @@
 ---
-title: "Create Github Release"
+title: "Create Auto Github Release"
 date: 2024-04-07
 categories: [Github]
 tags: [Github, Release, Auto Release, Tag, Github Tag]
