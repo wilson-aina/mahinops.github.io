@@ -14,12 +14,12 @@ timezone: Asia/Dhaka
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: M. Mahin # the main title
+title: Mokhlesur Mahin # the main title
 
 tagline: Software Engineer(DevOps/SRE) at WellDev | Kubernetes | Scalability | Security | Golang | Python # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing. #magic___^_^___line
+  blog, mahin, mokhlesur, github, golang, devops, kubernetes
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://mokhlesurr031.github.io"
@@ -29,9 +29,6 @@ github:
 
 # twitter:
 #   username: twitter_username # change to your twitter username
-
-linkedin:
-  username: mokhlesur-mahin
 
 social:
   # Change to your full name.
@@ -44,7 +41,7 @@ social:
   - https://github.com/mokhlesurr031 # change to your github homepage
   # Uncomment below to add more social links
   # - https://www.facebook.com/username
-  - https://www.linkedin.com/in/mokhlesur-mahin
+  # - https://www.linkedin.com/in/mokhlesur-mahin
 
 google_site_verification: # fill in to your verification string
 
@@ -78,7 +75,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/D5603AQHyZGreCkZUaw/profile-displayphoto-shrink_800_800/0/1707691890333?e=1718236800&v=beta&t=Lff2v0tVxqrxo764xokZy4RHD1EBuTS4s1gHekOi7Ws
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
