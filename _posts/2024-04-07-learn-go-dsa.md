@@ -756,7 +756,7 @@ Banana price: 30 Present: true
 - Write a method that will return the sum of all the elements of the integer list,
 given list as an input argument.
 
-```sumList.go
+```
 package main
 
 import "fmt"
