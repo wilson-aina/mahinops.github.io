@@ -116,13 +116,13 @@ jobs:
             Get the Release Details__
 ```
 
-#### How it works?
+##### How it works?
 When a branch is merged to the main branch, a new minor release update will take place. 
 
 
 
 
-### Major Release Creation Pipeline.
+#### Major Release Creation Pipeline.
 
 - Create another `update-major.yaml` file inside `workflows` folder. 
 
@@ -199,7 +199,7 @@ jobs:
 ```
 
 
-#### How it works?
+##### How it works?
 If a major update is needed_
 - Navigate to the `Actions` button from the project repository. 
 - From the left panel, Select `Update Major Release` button. 
