@@ -6,6 +6,7 @@ tags: [Github, Release, Auto Release, Tag, Github Tag]
 ---
 
 # Github Auto Release
+[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/github-auto-release.svg)](https://hits.sh/mokhlesurr031.github.io/posts/github-auto-release/)
 
 ## What is Release?
 
