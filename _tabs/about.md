@@ -6,9 +6,9 @@ order: 4
 
 # Mokhlesur Rahman Mahin
 
-```
+`
 Hello! I'm Mokhlesur Rahman Mahin, a seasoned professional with experience in backend development and DevOps practices. My expertise spans across various technologies including Golang, Python, Django, Odoo, Kubernetes, Docker, GCP, Helm, Terraform, Terraspace, Prometheus, Grafana, Alertmanager, GitHub Actions, and GitLab CI.
-```
+`
 
 ## Professional Experience
 ### Current Position:
