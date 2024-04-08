@@ -1,5 +1,5 @@
 ---
-title: "1-Learn Go with Data Structure and Algorithm-Part-1"
+title: "Learn Go with Data Structure and Algorithm-Part-1"
 date: 2024-04-08
 categories: [Golang]
 tags: [Go, Golang, DSA, Problem Solving, Data Structure, Algorithm, Programming Language]
