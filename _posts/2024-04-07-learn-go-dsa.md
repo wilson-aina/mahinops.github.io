@@ -1,11 +1,11 @@
 ---
-title: "Learn Go with Data Structure and Algorithm"
+title: "Learn Go with Data Structure and Algorithm-Part-0"
 date: 2024-04-07
 categories: [Golang]
 tags: [Go, Golang, DSA, Problem Solving, Data Structure, Algorithm, Programming Language]
 ---
 
-# Go Notebook
+# 00-Go Notebook
 [![Hits](https://hits.sh/mokhlesurr031.github.io/posts/learn-go-dsa.svg)](https://hits.sh/mokhlesurr031.github.io/posts/learn-go-dsa/)
 
 ## Basic Data Types
@@ -888,44 +888,28 @@ Output
 ```
 
 - Given a list of positive and negative integers, find a contiguous subarray
-whose sum (sum of elements) is maximum.
+whose sum (sum of elements) is maximum and return its sum.
+
+```
+func maxSubArray(nums []int) int {
+    sumTotal := -10000
+    nextPossibleSum := 0
+
+    for i:=0; i<len(nums); i++{
+        nextPossibleSum = nextPossibleSum+nums[i]
+        if nextPossibleSum>sumTotal{
+            sumTotal = nextPossibleSum
+        }
+        if nextPossibleSum<0{
+            nextPossibleSum = 0
+        }
+
+    }
+
+    return sumTotal
+}
+```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Here is [Part-1](2024-04-08-1-learn-go-dsa.md)
 
