@@ -911,5 +911,5 @@ func maxSubArray(nums []int) int {
 ```
 
 
-Here is [Part-1](2024-04-08-1-learn-go-dsa.md)
+Here is [Part-1](/posts/1-learn-go-dsa/)
 
