@@ -2,7 +2,7 @@
 title: "Embarking on the Coding Odyssey: The Journey of Irtiza Chowdhury as a Trainee Software Engineer at Welldev"
 date: 2024-04-10
 categories: [Interview]
-tags: [Interview, DevOps]
+tags: [Interview, Trainee Software Engineer, TSE, Welldev]
 ---
 
 # Interview Experience of [Irtiza Chowdhury](https://www.linkedin.com/in/md-irtiza-chowdhury/) ([Welldev](https://www.linkedin.com/company/welldevintl/about/)-Trainee Software Engineer)
