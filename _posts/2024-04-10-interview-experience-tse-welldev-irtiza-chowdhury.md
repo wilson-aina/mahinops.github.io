@@ -1,5 +1,5 @@
 ---
-title: "Interview Experience-Biochemistry and Molecular Biology(SUST) to Software Engineer at Welldev"
+title: "Embarking on the Coding Odyssey: The Journey of Irtiza Chowdhury as a Trainee Software Engineer at Welldev"
 date: 2024-04-10
 categories: [Interview]
 tags: [Interview, DevOps]
@@ -12,24 +12,22 @@ tags: [Interview, DevOps]
 
 
 ## Background
-I am from biochemistry and molecular biology. I also had 2 years of experience as an executive in R&d in ACME. 
 
-In SUST, all the departments must have at least one cse non major course. We had a course on c and in masters a Python course. So from that time, I started to enjoy programming and looking for resources. When I browsed any websites I feel strong willingness to build websites like them. So I was searching for the resources and guidelines to learn. 
+I hail from a background in biochemistry and molecular biology, supplemented by two years of experience as an executive in R&D at ACME. During my time at SUST, I encountered a requirement for all departments to include at least one non-major course in computer science. This led me to delve into programming, starting with a course in C and advancing to a Python course during my master's studies. As I explored various websites, I found myself drawn to the idea of creating websites akin to those I admired. This sparked a keen interest in learning more about web development and seeking out resources and guidance.
 
-In the covid situation, we learnt how to use online resources more efficiently and we have seen so many centers started online courses and it was increasing day by day. I was in the ACME at the time of the 2nd wave of covid. I felt this job was not for me. There is so much physical load more than mental work. But I love to think and prefer mental work then physical work as I am kind of a lazy person. 
+The onset of the COVID-19 pandemic forced us to adapt to utilizing online resources more effectively. Witnessing the proliferation of online courses, I found myself questioning whether my current role at ACME was the right fit for me. The physical demands outweighed the mental stimulation I craved, as I inherently lean towards mental tasks over physical labor due to my inclination towards laziness.
 
-I searched the standards of the pharma of BD and the comparison between the standards of BD with the foreign countries. There is so much gap. Then I tried to know about the IT standards of BD. I got more motivated to see the standards are the same for skilled persons. Then I tried to find some online courses and found one. Day by day I came to know so many popular and beginner friendly instructors and their videos on YouTube. Followed their guidelines and tried to shine my skill set.
+My curiosity led me to explore the standards of the pharmaceutical industry in Bangladesh, and I was disheartened to discover a significant disparity compared to international benchmarks. This prompted me to investigate the IT standards of Bangladesh, where I found solace in the realization that the standards remained consistent for skilled individuals. Eager to enhance my skills, I embarked on a journey of self-improvement, discovering popular and beginner-friendly instructors through online platforms like YouTube. Following their guidance, I diligently honed my skill set day by day.
 
 
 ## Interview Phases
 
-I faced 3 interview phases. All the round the interviewers focused on the JavaScript. As I know only the JS. They asked if I knew anything about DB, but I replied no. 
+I underwent three interview phases, all of which predominantly focused on JavaScript, given my expertise in the language. However, when asked about my knowledge of databases, I admitted my lack thereof.
 
 
 ### Interview Phase-1 (Technical)
-It took around 1.10 hours. It started with my intro to HR and some common questions like my strengths and weaknesses, educational background, about my family. What was my expected salary etc? 
+The first phase lasted approximately 1.10 hours and commenced with a brief introduction to the HR representative. Common questions regarding my strengths, weaknesses, educational background, and salary expectations were discussed. Then, the technical segment began, covering topics such as:
 
-Then we went to the technical round. As far as I remember, the questions were_
 1. How to sort an array?
 2. The sort method can have a callback function. So what will be the result without any callback function?
 3. In the callback function, how callback functions react based on the return value?
@@ -45,7 +43,8 @@ And some basic questions about the css background.
 
 
 ### Interview Phase-2 (Technical)
-It started with the basic introduction.Then we went to the technical round.
+This phase began with a basic introduction before delving into technical inquiries, which included:
+
 1. How can we find the total value from an array?
 2. As i replied the reduce method and reduce also receives a callback function, which recieves two parameters, current value and total value and a starting value. So what will be the result if we don't give any starting value?
 3. How callback function travers the array properties?
@@ -61,9 +60,8 @@ It started with the basic introduction.Then we went to the technical round.
 
 ### Interview Phase-3 (Technical+Behavioural)
 
-There was mainly discussion and the interviewer mainly tried to understand my motivation level. And there was a task at last to try to convince him that I am highly motivated and I am the right person and deserving of a chance. Of Course there was so much discussion of why and how every function works. So that's it.
-
+This phase primarily consisted of discussions to gauge my motivation level. The interviewer delved into understanding my motivations and concluded with a task aimed at demonstrating my motivation and suitability for the role. Additionally, there were detailed discussions on the functionality of various JavaScript functions and concepts.
 
 ### Interview Phase-4 (HR Round)
 
-I received a call from the HR department regarding my job confirmation and negotiations. 
+The HR round involved confirmation of the job offer and subsequent negotiations, where I received a call from the HR department.
