@@ -2,7 +2,7 @@
 title: "Leetcode - 53. Maximum Subarray"
 date: 2024-04-08
 categories: [Leetcode]
-tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Array, Divide and Conquer, Dynamic Programming, Programming, Algorithm]
+tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Array, Divide and Conquer, Dynamic Programming]
 ---
 
 # [Leetcode - 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/){:target="_blank"}
