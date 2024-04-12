@@ -1,6 +1,6 @@
 ---
 title: "Leetcode - Dummy"
-date: 2024-04-08
+date: 2022-04-08
 categories: [Leetcode]
 tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm]
 ---
