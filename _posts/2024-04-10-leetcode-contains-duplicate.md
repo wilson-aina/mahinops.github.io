@@ -26,3 +26,20 @@ func containsDuplicate(nums []int) bool {
     return false
 }
 ```
+
+
+Another Approach 
+
+```
+func containsDuplicate(nums []int) bool {
+    sort.Ints(nums) // sort the slice
+    // use a loop to compare each element with its next element
+    for i := 0; i < len(nums)-1; i++ {
+        // if any two elements are the same, return true
+        if nums[i] == nums[i+1] {
+            return true
+        }
+    }
+    return false // if no duplicates are found, return false
+}
+```
