@@ -2,7 +2,7 @@
 title: "Leetcode - 345. Reverse Vowels of a String"
 date: 2024-04-14
 categories: [Leetcode]
-tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm]
+tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Two Pointer, String]
 ---
 
 
