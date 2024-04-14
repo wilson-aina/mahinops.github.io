@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 
-# [Leetcode - Dummy](https://leetcode.com/problems/shortest-word-distance/description/){:target="_blank"}
+# [Leetcode - Sortest Word Distance(Premium)](https://leetcode.com/problems/shortest-word-distance/description/){:target="_blank"}
 [![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-shortest-word-distance.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-shortest-word-distance/)
 
 
