@@ -55,3 +55,5 @@ func currentDistance(first, second, distance int)int{
 }
 
 ```
+
+[Problem Statement in DesignGuru](https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/63daaa1a0d01fe363b68c8d4)
