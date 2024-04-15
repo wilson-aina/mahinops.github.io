@@ -53,7 +53,7 @@ The linked list supported operations are_
 
 In Go, you can define a linked list node as a struct_
 
-```
+```go
 // Node represents a node in the linked list
 type node struct {
 	data int
@@ -62,7 +62,7 @@ type node struct {
 ```
 
 Defining a linked list using the node is like_
-```
+```go
 // LinkedList represents a linked list
 type linkedList struct {
 	head *node
@@ -71,7 +71,7 @@ type linkedList struct {
 
 ### Lets complete this part_
 
-```
+```go
 package main
 
 import "fmt"
