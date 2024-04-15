@@ -22,7 +22,7 @@ Each `node` in the linked list contains the `data` part and the `pointer` to the
 The linked list supported operations are_
 - Insertion
   - Insert at the beginning
-  - [Insert at the end](### Lets complete this part_)
+  - Insert at the end
   - Insert at a given position
 
 - Deletion
@@ -32,7 +32,7 @@ The linked list supported operations are_
   - Delete a node with a given value
 
 - Traversal
-  - [Traverse the list and print values](### Lets complete this part_)
+  - Traverse the list and print values
 
 - Searching
   - Search for a given value
