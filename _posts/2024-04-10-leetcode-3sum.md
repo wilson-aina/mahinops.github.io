@@ -13,7 +13,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
     Notice that the solution set must not contain duplicate triplets.
 
 Solution
-```
+```go
 func threeSum(nums []int) [][]int {
 	sort.Ints(nums)
 	res := [][]int{}

@@ -25,7 +25,7 @@ There are 8 important premitive data types
 Strings are immutable so you cannot change its content once created. You need to first convert into a slice of rune then do the change and in the end convert it back to string. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -56,14 +56,14 @@ func main() {
 ### Conditions and Loops
 
 #### Basic if
-```
+```go
 if x>y{
 	fmt.Println("X")
 }
 ```
 
 #### Precondition if
-```
+```go
 if area:=length*width; area<limit{
 	fmt.Println("something"
 }
@@ -76,7 +76,7 @@ For loop helps to iterte through a group of statements mulitple times.
 Go has 4 forms of For Loop. 
 
 ##### Type 1
-```
+```go
 for <initialization>; <condition>; <increment/decrement> {}
 ---
 
@@ -94,7 +94,7 @@ func main() {
 }
 ```
 ##### Type 2 - like a while loop
-```
+```go
 for <condition>{}
 ---
 
@@ -116,7 +116,7 @@ func main() {
 ```
 
 ##### Type 3 - an infinite while loop
-```
+```go
 for {}
 ---
 
@@ -141,7 +141,7 @@ func main() {
 ```
 
 ##### Type 4 - with range
-```
+```go
 package main
 
 import "fmt"
@@ -167,7 +167,7 @@ If index values are not needed then they can be discarded using underscore (_).
 
 Example:
 
-```
+```go
 package main
 
 import "fmt"
@@ -192,7 +192,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 [0,1] [1,2] [2,3] [3,4] [4,5] [5,6] [6,7] [7,8] [8,9] [9,10] 
 Sum is ::  55
 1  ->  apple
@@ -205,7 +205,7 @@ Sum is ::  55
 Functions are used to provide modularity to the program. We can divide complex tasks into managable tasks using functions. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -226,7 +226,7 @@ func getMinMax(x, y int) string {
 ```
 
 Output
-```
+```bash
 Value of i before increment is :  10
 Value of i after increment is :  10
 ```
@@ -251,7 +251,7 @@ Points to remember:
 Pointers are nothing more than variables that store memory address of another variable and can be used to access the value stored at those addresses. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -267,7 +267,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 Value stored at variable var is  10
 Value stored at variable var is  10
 The address of variable var is  0xc00009e018
@@ -290,7 +290,7 @@ If you need to change the value of the parameter inside the function, you should
 Therefore, to make it happen, you need to pass the address of a variable and changing the values of the variable using this address inside the called function. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -307,7 +307,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 Value of i before increment is :  10
 Value of i after increment is :  11
 ```
@@ -329,7 +329,7 @@ variable to the function.
 Go language supports structures, which are a collection of multiple data types as a single entity. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -353,7 +353,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 {1 Johnny}
 Student name :: Johnny
 Student name :: Johnny
@@ -369,7 +369,7 @@ Between func keyword and name of function, we add data type called 'receiver'. O
 
 Example
 
-```
+```go
 package main
 
 import "fmt"
@@ -396,7 +396,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 Area:  100
 Perimeter:  40
 Area:  50
@@ -426,7 +426,7 @@ There are 2 types of defining associated function of a data type.
 instance this function (Just like pass by value.). Any change done over the
 object is not reflected in the calling object.
 The syntax of accessor function:
-```
+```go
 func (r <Receiver Data type>) <Function Name>(<Parameter List>) (<Return
 List>)
 ```
@@ -434,13 +434,13 @@ List>)
 instance of the object to this function (Just like pass by pointer.) Any change
 done over the object is reflected on the original object.
 The syntax of modifier function:
-```
+```go
 func (r *<Receiver Data type>) <Function Name>(<Parameter List>) (<Return
 List>)
 ```
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -465,7 +465,7 @@ func main() {
 
 
 Output
-```
+```bash
 value before increment1() call : 1
 value after increment1() call : 1
 value after increment2() call : 2
@@ -486,7 +486,7 @@ changes done are preserved.
 Interfaces are defined as a set of methods. 
 
 Syntax
-```
+```go
 Type <Interface name> interface {
 <Method name> <Return type>
 }
@@ -497,7 +497,7 @@ In Go, to implement an interface, an object just need to implement all methods o
 
 Example
 
-```
+```go
 package main
 
 import (
@@ -552,7 +552,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 Total Area:  414.1592653589793
 Total Perimeter:  102.83185307179586
 ```
@@ -571,7 +571,7 @@ object of type Shape.
 A collecition of variables of the same data type. 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -589,7 +589,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 [0 0 0 0 0 0 0 0 0 0]
 [0 1 2 3 4 5 6 7 8 9]
 Length of array 10
@@ -617,7 +617,7 @@ To define a slice, you can declare it as an array without specifying its size.
 Alternatively, you can use make function to create a slice.
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -636,7 +636,7 @@ func PrintSlice(data []int) {
 ```
 
 Output
-```
+```bash
 [1] :: len=1 cap=1 
 [1 2] :: len=2 cap=2 
 [1 2 3] :: len=3 cap=4 
@@ -657,7 +657,7 @@ Output
 ```
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -683,7 +683,7 @@ func PrintSlice(data []int) {
 
 
 Output
-```
+```bash
 [1 2 3 4 5 6 7 8 9 10] :: len=10 cap=10 
 [0 0 0 0 0 0 0 0 0 0] :: len=10 cap=10 
 [] :: len=0 cap=10 
@@ -694,19 +694,19 @@ Output
 
 ### Map/Dictionary
 A Map is a collection of Key-Value pairs. 
-```
+```go
 var <variable> map[<key datatype>]<value datatype>
 ```
 
 Maps have to be initialized using make() before they can be used.
-```
+```go
 var <variable> map[<key datatype>]<value datatype> = make(map[<key datatype>]
 <value datatype>)
 ```
 
 or
 
-```
+```go
 <variable> := make(map[<key datatype>]<value datatype>)
 ```
 
@@ -720,7 +720,7 @@ returns whether the map contains the key.
 
 
 Example
-```
+```go
 package main
 
 import "fmt"
@@ -744,7 +744,7 @@ func main() {
 ```
 
 Outout
-```
+```bash
 [ Apple -> 40 ][ Banana -> 30 ][ Mango -> 50 ]Apple price: 40
 Apple price: 0 Present: false
 Banana price: 30 Present: true
@@ -757,7 +757,7 @@ Banana price: 30 Present: true
 - Write a method that will return the sum of all the elements of the integer list,
 given list as an input argument.
 
-```
+```go
 package main
 
 import "fmt"
@@ -779,7 +779,7 @@ func main() {
 ```
 
 Output
-```
+```bash
 10
 ```
 
@@ -788,7 +788,7 @@ Output
 
 
 First Approach (Sequential Search)
-```
+```go
 package main
 
 import "fmt"
@@ -810,13 +810,13 @@ func main() {
 ```
 
 Output
-```
+```bash
 true
 ```
 
 
 Optimized Approch (Binary Search)
-```
+```go
 package main
 
 import "fmt"
@@ -843,7 +843,7 @@ func main() {
 }
 ```
 Output
-```
+```bash
 false
 ```
 
@@ -851,7 +851,7 @@ false
 - Given a list, you need to rotate its elements K number of times. For example, a
 list [10,20,30,40,50,60] rotate by 2 positions to [30,40,50,60,10,20]
 
-```
+```go
 package main
 
 import "fmt"
@@ -883,14 +883,14 @@ func main() {
 ```
 
 Output
-```
+```bash
 [4 5 1 2 3]
 ```
 
 - Given a list of positive and negative integers, find a contiguous subarray
 whose sum (sum of elements) is maximum and return its sum.
 
-```
+```go
 func maxSubArray(nums []int) int {
     sumTotal := -10000
     nextPossibleSum := 0

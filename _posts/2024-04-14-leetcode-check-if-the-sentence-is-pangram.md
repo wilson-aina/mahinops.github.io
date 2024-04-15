@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func checkIfPangram(sentence string) bool {
     charMap := make(map[rune]bool)
 

@@ -18,7 +18,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
   Return true if n is a happy number, and false if not.
 
 Solution
-```
+```go
 func isHappy(n int) bool {
     visited := make(map[int]int)
 

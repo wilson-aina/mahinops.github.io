@@ -17,7 +17,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
   Notice that you may not slant the container.
 
 Solution
-```
+```go
 func maxArea(height []int) int {
     leftH, rightH := 0, len(height)-1
     maxWater := 0

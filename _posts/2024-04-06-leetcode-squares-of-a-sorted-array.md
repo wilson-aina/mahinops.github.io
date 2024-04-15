@@ -12,7 +12,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func sortedSquares(nums []int) []int {
     ln := len(nums)
     sortedSquared := make([]int, ln)

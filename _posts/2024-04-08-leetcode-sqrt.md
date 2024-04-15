@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
     For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 
 Solution
-```
+```go
 func mySqrt(x int) int {
     if x<2{
         return x

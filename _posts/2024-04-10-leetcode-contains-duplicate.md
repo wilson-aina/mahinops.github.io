@@ -11,7 +11,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 - Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
 Solution
-```
+```go
 func containsDuplicate(nums []int) bool {
     numMap:= make(map[int]int)
 
@@ -30,7 +30,7 @@ func containsDuplicate(nums []int) bool {
 
 Another Approach 
 
-```
+```go
 func containsDuplicate(nums []int) bool {
     sort.Ints(nums) // sort the slice
     // use a loop to compare each element with its next element

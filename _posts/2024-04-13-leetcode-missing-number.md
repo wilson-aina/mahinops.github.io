@@ -13,7 +13,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func missingNumber(nums []int) int {
     ln := len(nums)
     sumTotal := (ln*(ln+1))/2

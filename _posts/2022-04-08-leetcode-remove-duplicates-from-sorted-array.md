@@ -16,7 +16,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
   Return k.
 
 Solution
-```
+```go
 func removeDuplicates(nums []int) int {
     if len(nums)==0{
         return 0

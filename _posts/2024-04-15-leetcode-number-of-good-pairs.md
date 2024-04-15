@@ -17,7 +17,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution 1
 
-```
+```go
 func numIdenticalPairs(nums []int) int {
     pairCount := 0
 	first, second := 0, 1
@@ -35,7 +35,7 @@ func numIdenticalPairs(nums []int) int {
 
 Solution 2 (Optimized)
 
-```
+```go
 func numIdenticalPairs(nums []int) int {
     pairCount := 0
 	mapCount := make(map[int]int)

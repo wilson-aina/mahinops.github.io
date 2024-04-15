@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func isAnagram(s string, t string) bool {
     if len(s)!=len(t){
         return false

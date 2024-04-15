@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
     Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 Solution
-```
+```go
 func maxProfit(prices []int) int {
     minPrice := prices[0]
     maxProfit := 0

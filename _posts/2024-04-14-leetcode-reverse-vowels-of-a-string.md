@@ -17,7 +17,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 func reverseVowels(s string) string {
     	// as we will replace inplace and strings are immutable in go, hence we converted them to rune
 	strToRunes := []rune(s)

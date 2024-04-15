@@ -11,7 +11,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 - Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
 Solution
-```
+```go
 func maxSubArray(nums []int) int {
     sumTotal := -10000
     nextPossibleSum := 0

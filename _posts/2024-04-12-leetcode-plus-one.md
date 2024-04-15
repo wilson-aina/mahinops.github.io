@@ -13,7 +13,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 	Increment the large integer by one and return the resulting array of digits.
 
 Solution
-```
+```go
 func plusOne(digits []int) []int {
     ln := len(digits)
     rem := 1

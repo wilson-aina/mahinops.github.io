@@ -43,7 +43,7 @@ Three important properties of recursive algorithm are:_
 
 - Factorial calculation. `n! = n*(n-1)*(n-2)*...2*1`
 
-```
+```go
 package main
 
 import "fmt"

@@ -53,7 +53,7 @@ To automate the release-creation process, we need 2 values to be set manually. A
 
 In `auto-release.yaml` file paste the following code_
 
-```
+```yaml
 name: Release Workflow
 
 on:
@@ -129,7 +129,7 @@ When a branch is merged to the main branch, a new minor release update will take
 
 In `update-major.yaml` file paste the following code_
 
-```
+```yaml
 name: Update Major Release
 
 on:

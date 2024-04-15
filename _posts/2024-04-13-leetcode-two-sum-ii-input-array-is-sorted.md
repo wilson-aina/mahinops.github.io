@@ -18,7 +18,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func twoSum(numbers []int, target int) []int {
     firstInd, lastInd := 0, len(numbers)-1
 

@@ -16,8 +16,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-
-```
+```go
 func isPalindrome(s string) bool {
     firstInd, lastInd := 0, len(s)-1
 

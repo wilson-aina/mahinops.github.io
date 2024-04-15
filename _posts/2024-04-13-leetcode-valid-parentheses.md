@@ -19,7 +19,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 Solution
-```
+```go
 func isValid(s string) bool {
     closeToOpenMap := map[rune]rune{
         ')': '(',
