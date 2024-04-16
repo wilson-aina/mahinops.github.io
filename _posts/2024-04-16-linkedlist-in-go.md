@@ -139,7 +139,7 @@ func (l *linkedList) insert(data int) {
 ```
 
 
-Now lets complete the linked list one by one_
+Now lets complete the linked list operations one by one_
 
 
 ```go
