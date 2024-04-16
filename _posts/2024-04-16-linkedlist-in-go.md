@@ -7,6 +7,8 @@ tags: [Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Lin
 
 
 # Linked List in Golang
+[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/linkedlist-in-go.svg)](https://hits.sh/mokhlesurr031.github.io/posts/linkedlist-in-go/)
+
 
 Linked List is a linear data structure like arrays, whereas, linked list doesn't have element stored in contiguous locations, as arrays do. 
 
