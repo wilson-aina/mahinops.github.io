@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
