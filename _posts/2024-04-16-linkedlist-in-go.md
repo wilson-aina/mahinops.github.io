@@ -1,6 +1,6 @@
 ---
 title: "Linked List in Golang"
-date: 2024-04-15
+date: 2024-04-16
 categories: [LinkedList]
 tags: [Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Linked List]
 ---
@@ -16,6 +16,11 @@ In simple words, we can say, linked list is a collection of `Nodes`.
 
 1. **Data:** The actual value stored in the node.
 2. **Pointer:** A reference to the next node in the sequence.
+
+<div style="text-align:center">
+    <img src="static/linked_list.png" alt="Linked List">
+    <p>Fig: Linked List</p>
+</div>
 
 Each `node` in the linked list contains the `data` part and the `pointer` to the next node in the linked list.
 
