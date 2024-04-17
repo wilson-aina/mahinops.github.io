@@ -16,7 +16,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 func findDisappearedNumbers(nums []int) []int {
     i := 0
 
