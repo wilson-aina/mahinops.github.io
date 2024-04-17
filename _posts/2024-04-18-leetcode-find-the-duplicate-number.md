@@ -2,7 +2,7 @@
 title: "Leetcode - 287. Find the Duplicate Number"
 date: 2024-04-18
 categories: [Leetcode]
-tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm]
+tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Array, Two Pointers, Binary Search, Bit Manipulation]
 ---
 
 
