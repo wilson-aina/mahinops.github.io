@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 type Solution struct{}
 
 func (sol Solution) largestUniqueNumber(A []int) int {
