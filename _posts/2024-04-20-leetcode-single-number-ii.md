@@ -19,21 +19,13 @@ Solution
 
 ```go
 func singleNumber(nums []int) int {
-    result := 0
+    ones, twos := 0, 0
 
-    for bit:=0; bit<=31; bit++{
-        countZeros, countOnes := 0, 0
-        for _, num := range nums{
-            if (num>>bit)&1 == 1{
-                countOnes++
-            }else{
-                countZeros++
-            }
-        }
-        if countOnes % 3 != 0 {
-            result |= 1 << bit
-        }
+    for _, num := range nums {
+        ones = (ones ^ num) &^ twos
+        twos = (twos ^ num) &^ ones
     }
-    return result
+
+    return ones
 }
 ```
