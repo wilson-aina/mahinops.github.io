@@ -17,7 +17,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 func singleNumber(nums []int) int {
     nonRepeatingNum := 0
     for _, num := range nums{
