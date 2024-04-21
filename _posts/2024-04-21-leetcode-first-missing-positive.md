@@ -33,14 +33,14 @@ func firstMissingPositive(nums []int) int {
             i++
         }
 	}
-    fmt.Println(nums)
+  fmt.Println(nums)
 
-    for i:=0; i<len(nums); i++{
-        if nums[i] != i+1{
-            return i+1
-        }
-    }
+  for i:=0; i<len(nums); i++{
+      if nums[i] != i+1{
+          return i+1
+      }
+  }
 
-    return len(nums)+1
+  return len(nums)+1
 }
 ```
