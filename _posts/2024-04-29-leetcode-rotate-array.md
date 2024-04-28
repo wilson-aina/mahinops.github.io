@@ -18,6 +18,9 @@ Solution
 ```
 func rotate(nums []int, k int)  {
     ln := len(nums)
+    if ln ==0{
+        return
+    }
     k = k%ln
 
     ReverseArray(nums, 0, ln-1)
