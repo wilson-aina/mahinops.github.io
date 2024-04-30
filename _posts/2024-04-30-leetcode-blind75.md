@@ -28,7 +28,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 |   13   |Binary|[338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)|||
 |   14   |Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-missing-number/)|
 |   15   |Binary|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)|||
-|   16   |DP|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|✓|[Solve](link)|
+|   16   |DP|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|✓||
 |   17   |DP|[322. Coin Change](https://leetcode.com/problems/coin-change/description/)|||
 |   18   |DP|[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|||
 |   19   |DP|[1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)|||
@@ -89,18 +89,3 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 |   74   |Heap|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|||
 |   75   |Heap|[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|||
 |   74   |Heap|[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|||
-
-
-
-
-[Solve](link)
-
-
-
-
-
-
-
-[Solution](link)
-
-
