@@ -13,20 +13,20 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 | Serial | Category |    Name    | Is Solved? | Solve Link |
 | :----: | ------ | -------- | :-: | ----- |
-|    1   |Array|[1. Two Sum](https://leetcode.com/problems/two-sum/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-two-sum/)|
-|    2   |Array|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-best-time-to-buy-and-sell-stock/)|
-|    3   |Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-contains-duplicate/)|
+|    1   |Array|[1. Two Sum](https://leetcode.com/problems/two-sum/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-two-sum/)|
+|    2   |Array|[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|✓|[Solve](https://mokhlesurr031.github.io/leetcode-best-time-to-buy-and-sell-stock/)|
+|    3   |Array|[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-contains-duplicate/)|
 |    4   |Array|[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|||
-|    5   |Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-maximum-subarray/)|
+|    5   |Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-maximum-subarray/)|
 |    6   |Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|||
 |    7   |Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|||
 |    8   |Array|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|||
-|    9   |Array|[15. 3Sum](https://leetcode.com/problems/3sum/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-3sum/)|
-|   10   |Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-container-with-most-water/)|
+|    9   |Array|[15. 3Sum](https://leetcode.com/problems/3sum/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-3sum/)|
+|   10   |Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-container-with-most-water/)|
 |   11   |Binary|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|||
 |   12   |Binary|[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)|||
 |   13   |Binary|[338. Counting Bits](https://leetcode.com/problems/counting-bits/description/)|||
-|   14   |Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/description/)|✓|[Solve](http://localhost:4000/posts/leetcode-missing-number/)|
+|   14   |Binary|[268. Missing Number](https://leetcode.com/problems/missing-number/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-missing-number/)|
 |   15   |Binary|[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)|||
 |   16   |DP|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|✓||
 |   17   |DP|[322. Coin Change](https://leetcode.com/problems/coin-change/description/)|||
@@ -52,8 +52,8 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 |   37   |Interval|[435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)|||
 |   38   |Interval|[Premium](https://leetcode.com/problems/meeting-rooms/)|||
 |   39   |Interval|[Premium](https://leetcode.com/problems/meeting-rooms-ii/)|||
-|   40   |Linked List|[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|✓|[Solve](http://localhost:4000/posts/leetcode-reverse-linked-list/)|
-|   41   |Linked List|[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|✓|[Solve](http://localhost:4000/posts/leetcode-linked-list-cycle/)|
+|   40   |Linked List|[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-reverse-linked-list/)|
+|   41   |Linked List|[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-linked-list-cycle/)|
 |   42   |Linked List|[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|||
 |   43   |Linked List|[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|||
 |   44   |Linked List|[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|||
@@ -65,14 +65,14 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 |   50   |String|[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|||
 |   51   |String|[424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|||
 |   52   |String|[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|||
-|   53   |String|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|✓|[Solve](http://localhost:4000/posts/leetcode-valid-anagram/)|
+|   53   |String|[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-valid-anagram/)|
 |   54   |String|[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)|||
-|   55   |String|[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|✓|[Solve](http://localhost:4000/posts/leetcode-valid-parentheses/)|
-|   56   |String|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✓|[Solve](http://localhost:4000/posts/leetcode-valid-palindrome/)|
+|   55   |String|[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-valid-parentheses/)|
+|   56   |String|[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-valid-palindrome/)|
 |   57   |String|[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|||
 |   58   |String|[647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|||
 |   59   |String|[Premium](https://leetcode.com/problems/encode-and-decode-strings/)|||
-|   60   |Tree|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|||
+|   60   |Tree|[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-maximum-depth-of-binary-tree/)|
 |   61   |Tree|[100. Same Tree](https://leetcode.com/problems/same-tree/)|||
 |   62   |Tree|[226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|||
 |   63   |Tree|[124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|||

@@ -15,7 +15,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 func rotate(nums []int, k int)  {
     ln := len(nums)
     if ln ==0{
