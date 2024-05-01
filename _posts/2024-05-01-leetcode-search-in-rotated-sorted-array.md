@@ -21,7 +21,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 Solution
 
-```
+```go
 func search(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 	for low <= high {
