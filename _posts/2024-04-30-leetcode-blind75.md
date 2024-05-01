@@ -20,7 +20,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 |    5   |Array|[53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-maximum-subarray/)|
 |    6   |Array|[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|||
 |    7   |Array|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|||
-|    8   |Array|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|||
+|    8   |Array|[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|✓|(https://mokhlesurr031.github.io/posts/leetcode-search-in-rotated-sorted-array/)|
 |    9   |Array|[15. 3Sum](https://leetcode.com/problems/3sum/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-3sum/)|
 |   10   |Array|[11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)|✓|[Solve](https://mokhlesurr031.github.io/posts/leetcode-container-with-most-water/)|
 |   11   |Binary|[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|||
