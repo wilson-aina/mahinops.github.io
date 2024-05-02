@@ -73,7 +73,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 | 58 | String | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | |
 | 59 | String | [Premium](https://leetcode.com/problems/encode-and-decode-strings/) | |
 | 60 | Tree | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Solve](https://mokhlesurr031.github.io/posts/leetcode-maximum-depth-of-binary-tree/) |
-| 61 | Tree | [100. Same Tree](https://leetcode.com/problems/same-tree/) | |
+| 61 | Tree | [100. Same Tree](https://leetcode.com/problems/same-tree/) | [Solve](https://mokhlesurr031.github.io/posts/leetcode-same-tree/) |
 | 62 | Tree | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | |
 | 63 | Tree | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | |
 | 64 | Tree | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | |
