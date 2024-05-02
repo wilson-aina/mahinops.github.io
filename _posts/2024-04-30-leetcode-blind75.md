@@ -1,12 +1,12 @@
 ---
-title: "Leetcode Blind-75"
+title: "Leetcode Blind-75(+1)"
 date: 2024-04-30
 categories: [Leetcode]
 tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Array, Binary, DP, Graph, Interval, Linked List, Matrix, String, Tree, Heap]
 ---
 
 
-# Leetcode Blind-75
+# Leetcode Blind-75(+1)
 [![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-blind75.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-blind75/)
 
 
