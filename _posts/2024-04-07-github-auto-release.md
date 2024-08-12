@@ -2,7 +2,7 @@
 title: "Create Auto Github Release"
 date: 2024-04-07
 categories: [Github]
-tags: [Github, Release, Auto Release, Tag, Github Tag]
+tags: [Github, Release, Auto Release, Tag, Github Tag, Github Action, CI/CD Pipeline, Pipeline, DevOps, SRE, CI/CD, Continuous Development, Continuous Integration]
 ---
 
 # Github Auto Release
