@@ -8,74 +8,21 @@ tags: [Github, Composite Action, RBAC, Github Permission, Workflow Permission, G
 # RBAC in Github Action
 
 ## Why? 
- RBAC (Role-Based Access Control) in GitHub Actions, when implemented using a permissions.yml file, allows you to define specific GitHub usernames that are authorized to trigger particular pipelines. By listing allowed users, this approach ensures that only those with explicit permission can execute the workflows. Applied as a composite action, this method provides granular control over who can initiate specific pipelines, enhancing security and maintaining strict access controls within your CI/CD processes.
+RBAC (Role-Based Access Control) in GitHub Actions provides a mechanism to control who can trigger specific workflows. By using a `permissions.yml` file, you can define the GitHub usernames that are authorized to manually trigger particular pipelines. This setup ensures that only users with explicit permission can execute these workflows, offering enhanced security and strict access control within your CI/CD processes. This approach is ideal for organizations that require granular control over workflow initiation, limiting access to those who are authorized to perform critical actions.
 
-## Why Composite Action? 
- This approach promotes reusability, maintainability, and consistency across different workflows. By encapsulating a series of steps into a composite action, you can reduce redundancy and ensure that common tasks are executed in a standardized manner. 
+## Status
+Development of this action is still ongoing, with plans to introduce more features in the future, offering even greater flexibility and control over workflow permissions.
 
-## How Can We Do That?
- To implement RBAC in Github Action, I have created a certain folder and files. The structure is given below_
 
-```
-.github/
-├── actions
-│   └── check-permissions
-│       └── action.yml
-└── workflows
-|   └── test-workflow.yml
-└── permissions.yml
-```
-
-In `action.yml`, I’ve defined a composite action that checks permissions to determine if a user is authorized to trigger the GitHub Action job. 
-
-In `test-workflow.yml`, this composite action is used to enforce those permission checks before proceeding with the workflow.
-
-The `permissions.yml` file contains the allower github usernames.
-
-The file contains the code below to ensure the RBAC_
-
-`action.yml` contains_
-```yml
-name: 'Check Permissions'
-description: 'Check if the user triggering the workflow is allowed to proceed.'
-inputs:
-  permissions-file:
-    description: 'Path to the permissions.yml file'
-    required: true
-  actor:
-    description: 'GitHub actor triggering the workflow'
-    required: true
-runs:
-  using: 'composite'
-  steps:
-  - name: Set up Python
-    uses: actions/setup-python@v4
-
-  - name: Install PyYAML
-    run: pip install pyyaml
-    shell: bash
-
-  - name: Check Permissions
-    run: |
-      python -c "
-      import yaml
-      with open('${{ inputs.permissions-file }}', 'r') as f:
-          permissions = yaml.safe_load(f)
-      if '${{ inputs.actor }}' not in permissions['allowed_users']:
-          print('-----------------ERROR--------------------')
-          print('User ${{ inputs.actor }} is not allowed to trigger this workflow.')
-          print('------------------------------------------')
-          exit(1)
-      "
-    shell: bash
-```
-
-`test-workflow.yml` file contains_
+## Usage
+The `github-action-by-permission` action is designed to enforce Role-Based Access Control (RBAC) for manually triggered (`workflow_dispatch`) GitHub workflows. Here's a simple example of how to use this action to control who can trigger a specific workflow:
 
 ```yml
-name: Example Workflow
+name: Test Action Trigger Permissions
+
 on:
   workflow_dispatch:
+
 jobs:
   example-job:
     runs-on: ubuntu-latest
@@ -84,24 +31,42 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Check Permissions
-        uses: ./.github/actions/check-permissions
+        uses: mokhlesurr031/github-action-by-permission@v1.0
         with:
-          permissions-file: 'permissions.yml'
-          actor: '${{ github.actor }}'
+          permissions-file: 'user-permissions.yml' //specify your yml file with correct path here
 
       - name: Echo Something
         run: echo "Hello World!"
 ```
 
-And the allowed github users list in the `permissions.yml` file_
+### Explanation
+**Checkout Code**: The first step checks out the repository code using the standard actions/checkout@v3 action.
+
+**Check Permissions**: The `github-action-by-permission` action is then used to verify if the user who initiated the workflow has permission to do so. It references a yml file (in this case, named user-permissions.yml) where allowed users are defined.
+
+**Echo Something**: If the permission check passes, the workflow proceeds to execute subsequent steps, such as echoing "Hello World!" in this example. You can specify your workflows as needed.
+
+### Key Points
+**permissions-file**: This input points to the YAML file that contains the list of users authorized to trigger the workflow. Only those listed in this file will be able to execute the pipeline. 
+
+`Note`: *In general, this `permissions.yaml` file is kept in the root directory of the project*.
+The structure of this file is as below:
+
 ```yml
 allowed_users:
-- test-user
-- mokhlesurr031
+- user1
+- user2
+- user3
 ```
 
+**Security and Control**: By integrating this action into your workflows, you can ensure that only authorized individuals have the ability to initiate critical processes, adding a layer of security and control to your CI/CD pipelines.
+
+
+This example demonstrates how to set up and use the `github-action-by-permission` action to manage access to your GitHub Actions workflows.
+
+
 ## Github Repository
-You can visit this repo for the complete structure => [Click Here](https://github.com/mokhlesurr031/github-action-by-permission)
+You can visit this repo for the latest release => [Click Here](https://github.com/mokhlesurr031/github-action-by-permission)
 
 
 
