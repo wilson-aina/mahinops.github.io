@@ -97,6 +97,12 @@ fmt.Println(value) // Output: 1
 ```
 6. delete(numbers, "one"): `delete(numbers, "one")`
 
+**Note:**
+```
+numbers := make(map[string]int) //This approach uses the make function to create an empty map.
+numbers := map[string]int{} //This approach directly initializes an empty map using a map literal.
+```
+
 
 
 ### String in Go
