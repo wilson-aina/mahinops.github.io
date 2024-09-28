@@ -80,135 +80,327 @@ Advanced Math Operations Using the math Package
 2. Declaring an empty map using make: `numbers := make(map[string]int)`
 3. Declaring and initializing a map with values:
 
-```go
-colors := map[string]string{
-    "red":   "#FF0000",
-    "green": "#00FF00",
-    "blue":  "#0000FF",
-}
-```
+    ```go
+    colors := map[string]string{
+        "red":   "#FF0000",
+        "green": "#00FF00",
+        "blue":  "#0000FF",
+    }
+    ```
 4. Adding or updating elements:
 
-```go
-numbers["one"] = 1
-numbers["two"] = 2
-```
+    ```go
+    numbers["one"] = 1
+    numbers["two"] = 2
+    ```
 5. Retrieving elements:
 
-```go
-value := numbers["one"]
-fmt.Println(value) // Output: 1
-```
+    ```go
+    value := numbers["one"]
+    fmt.Println(value) // Output: 1
+    ```
 6. delete(numbers, "one"): `delete(numbers, "one")`
 
-**Note:**
+    **Note:**
 
-```go
-numbers := make(map[string]int) //This approach uses the make function to create an empty map.
-numbers := map[string]int{} //This approach directly initializes an empty map using a map literal.
-```
+    ```go
+    numbers := make(map[string]int) //This approach uses the make function to create an empty map.
+    numbers := map[string]int{} //This approach directly initializes an empty map using a map literal.
+    ```
 
 
 
 ### String in Go
 1. Concatenation
 
-```go
-str1 := "Hello"
-str2 := "World"
-result := str1 + " " + str2
-fmt.Println(result) // Output: Hello World
-```
+    ```go
+    str1 := "Hello"
+    str2 := "World"
+    result := str1 + " " + str2
+    fmt.Println(result) // Output: Hello World
+    ```
 2. String Length
 
-```go
-str := "Golang"
-length := len(str)
-fmt.Println(length) // Output: 6
-```
+    ```go
+    str := "Golang"
+    length := len(str)
+    fmt.Println(length) // Output: 6
+    ```
 
 3. Accessing Characters
 
-```go
-str := "Golang"
-char := str[0]
-fmt.Println(char)        // Output: 71 (ASCII code for 'G')
-fmt.Println(string(char)) // Output: G
-```
+    ```go
+    str := "Golang"
+    char := str[0]
+    fmt.Println(char)        // Output: 71 (ASCII code for 'G')
+    fmt.Println(string(char)) // Output: G
+    ```
 
 4. Substring
 
-```go
-str := "Golang"
-substring := str[1:4]
-fmt.Println(substring)
-```
+    ```go
+    str := "Golang"
+    substring := str[1:4]
+    fmt.Println(substring)
+    ```
 
 5. Checking Substrings
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str := "Hello, Golang!"
-contains := strings.Contains(str, "Golang")
-fmt.Println(contains) // Output: true
-```
+    str := "Hello, Golang!"
+    contains := strings.Contains(str, "Golang")
+    fmt.Println(contains) // Output: true
+    ```
 
 6. Replacing Substrings
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str := "Hello, World!"
-newStr := strings.Replace(str, "World", "Golang", 1)
-fmt.Println(newStr) // Output: Hello, Golang!
-```
+    str := "Hello, World!"
+    newStr := strings.Replace(str, "World", "Golang", 1)
+    fmt.Println(newStr) // Output: Hello, Golang!
+    ```
 
 7. Splitting a String
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str := "apple,banana,cherry"
-fruits := strings.Split(str, ",")
-fmt.Println(fruits) // Output: [apple banana cherry]
+    str := "apple,banana,cherry"
+    fruits := strings.Split(str, ",")
+    fmt.Println(fruits) // Output: [apple banana cherry]
 
-```
+    ```
+
 8. Trimming Whitespaces
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str := "  Hello, Golang!  "
-trimmed := strings.TrimSpace(str)
-fmt.Println(trimmed) // Output: Hello, Golang!
-```
+    str := "  Hello, Golang!  "
+    trimmed := strings.TrimSpace(str)
+    fmt.Println(trimmed) // Output: Hello, Golang!
+    ```
 
 9. Converting Case
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str := "GoLang"
-lower := strings.ToLower(str)
-upper := strings.ToUpper(str)
-fmt.Println(lower) // Output: golang
-fmt.Println(upper) // Output: GOLANG
-```
+    str := "GoLang"
+    lower := strings.ToLower(str)
+    upper := strings.ToUpper(str)
+    fmt.Println(lower) // Output: golang
+    fmt.Println(upper) // Output: GOLANG
+    ```
 
 10. Comparing Strings
 
-```go
-import "strings"
+    ```go
+    import "strings"
 
-str1 := "hello"
-str2 := "world"
-equal := str1 == str2
-fmt.Println(equal) // Output: false
+    str1 := "hello"
+    str2 := "world"
+    equal := str1 == str2
+    fmt.Println(equal) // Output: false
 
-comparison := strings.Compare(str1, str2)
-fmt.Println(comparison) // Output: -1 (str1 is less than str2)
-```
+    comparison := strings.Compare(str1, str2)
+    fmt.Println(comparison) // Output: -1 (str1 is less than str2)
+    ```
+
+
+## Array in Go
+
+1. With a specified length:
+
+    ```go
+    var numbers [5]int // An array of 5 integers
+    ```
+
+2. Using the shorthand syntax:
+
+    ```go
+    numbers := [5]int{1, 2, 3, 4, 5} // An array with initial values
+    ```
+
+3. Using ... to let the compiler determine the length:
+
+    ```go
+    numbers := [...]int{1, 2, 3, 4, 5} // The length is automatically determined
+    ```
+
+4. Accessing and Modifying Array Elements
+
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        // Declare and initialize an array
+        numbers := [5]int{1, 2, 3, 4, 5}
+
+        // Accessing elements
+        fmt.Println("First element:", numbers[0]) // Output: 1
+        fmt.Println("Third element:", numbers[2])  // Output: 3
+
+        // Modifying elements
+        numbers[0] = 10
+        fmt.Println("Modified first element:", numbers[0]) // Output: 10
+
+        // Print the entire array
+        fmt.Println("Array:", numbers) // Output: [10 2 3 4 5]
+    }
+    ```
+
+
+4. Iterating Over an Array
+
+    **for loop**
+
+    ```go
+    for i := 0; i < len(numbers); i++ {
+        fmt.Println("Element at index", i, ":", numbers[i])
+    }
+    ```
+
+    **for range**
+
+    ```go
+    for index, value := range numbers {
+        fmt.Println("Element at index", index, ":", value)
+    }
+    ```
+
+
+
+## Slices in Go
+
+1. Declaring and Initializing Slices
+
+    **Using `make`:**
+
+    ```go
+    ```
+
+    **Using a slice literal:**
+
+    ```go
+    slice := []int{1, 2, 3, 4, 5} // Initializes a slice with values
+    ```
+
+    **Creating a slice from an array:**
+
+    ```go
+    array := [5]int{1, 2, 3, 4, 5}
+    slice := array[1:4] // Creates a slice from index 1 to 3
+    ```
+
+2. Accessing and Modifying Slice Elements
+
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        // Initialize a slice
+        slice := []int{1, 2, 3, 4, 5}
+
+        // Accessing elements
+        fmt.Println("First element:", slice[0]) // Output: 1
+        fmt.Println("Third element:", slice[2])  // Output: 3
+
+        // Modifying elements
+        slice[0] = 10
+        fmt.Println("Modified first element:", slice[0]) // Output: 10
+
+        // Print the entire slice
+        fmt.Println("Slice:", slice) // Output: [10 2 3 4 5]
+    }
+
+    ```
+
+3. Appending to a Slice
+
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        slice := []int{1, 2, 3}
+
+        // Appending elements
+        slice = append(slice, 4) // Appending a single element
+        slice = append(slice, 5, 6) // Appending multiple elements
+
+        fmt.Println("After appending:", slice) // Output: [1 2 3 4 5 6]
+    }
+
+    ```
+
+4. Slicing a Slice
+
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        slice := []int{1, 2, 3, 4, 5}
+
+        // Creating a new slice from an existing slice
+        newSlice := slice[1:4] // Contains elements at index 1, 2, and 3
+
+        fmt.Println("New slice:", newSlice) // Output: [2 3 4]
+    }
+
+    ```
+
+5. Length and Capacity
+
+    ```go
+    package main
+
+    import "fmt"
+
+    func main() {
+        slice := []int{1, 2, 3}
+
+        fmt.Println("Length:", len(slice)) // Output: 3
+        fmt.Println("Capacity:", cap(slice)) // Output: 3 (initial capacity)
+        
+        slice = append(slice, 4, 5)
+        
+        fmt.Println("New Length:", len(slice)) // Output: 5
+        fmt.Println("New Capacity:", cap(slice)) // Output may increase (e.g., 6, 8, etc.)
+    }
+
+    ```
+
+6. Iterating Over an Slice
+
+    **Using a traditional `for` loop:**
+
+    ```go
+    for i := 0; i < len(slice); i++ {
+        fmt.Println("Element at index", i, ":", slice[i])
+    }
+
+    ```
+
+    **Using `for range`:**
+
+    ```go
+    for index, value := range slice {
+        fmt.Println("Element at index", index, ":", value)
+    }
+
+    ```
 
 
 
