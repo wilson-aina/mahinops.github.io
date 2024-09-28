@@ -25,6 +25,7 @@ Go is a statically typed, compiled high-level programming language designed at G
 - `uintptr`: Used for storing pointer data
 
 ### Basic Arithmetic Operations
+
 ```go
 package main
 
@@ -78,6 +79,7 @@ Advanced Math Operations Using the math Package
 1. Basic Syntax `map[KeyType]ValueType`
 2. Declaring an empty map using make: `numbers := make(map[string]int)`
 3. Declaring and initializing a map with values:
+
 ```go
 colors := map[string]string{
     "red":   "#FF0000",
@@ -86,11 +88,13 @@ colors := map[string]string{
 }
 ```
 4. Adding or updating elements:
+
 ```go
 numbers["one"] = 1
 numbers["two"] = 2
 ```
 5. Retrieving elements:
+
 ```go
 value := numbers["one"]
 fmt.Println(value) // Output: 1
@@ -98,7 +102,8 @@ fmt.Println(value) // Output: 1
 6. delete(numbers, "one"): `delete(numbers, "one")`
 
 **Note:**
-```
+
+```go
 numbers := make(map[string]int) //This approach uses the make function to create an empty map.
 numbers := map[string]int{} //This approach directly initializes an empty map using a map literal.
 ```
@@ -107,6 +112,7 @@ numbers := map[string]int{} //This approach directly initializes an empty map us
 
 ### String in Go
 1. Concatenation
+
 ```go
 str1 := "Hello"
 str2 := "World"
@@ -114,6 +120,7 @@ result := str1 + " " + str2
 fmt.Println(result) // Output: Hello World
 ```
 2. String Length
+
 ```go
 str := "Golang"
 length := len(str)
@@ -121,6 +128,7 @@ fmt.Println(length) // Output: 6
 ```
 
 3. Accessing Characters
+
 ```go
 str := "Golang"
 char := str[0]
@@ -129,7 +137,6 @@ fmt.Println(string(char)) // Output: G
 ```
 
 4. Substring
-To extract a substring, use slicing.
 
 ```go
 str := "Golang"
@@ -138,6 +145,7 @@ fmt.Println(substring)
 ```
 
 5. Checking Substrings
+
 ```go
 import "strings"
 
@@ -147,6 +155,7 @@ fmt.Println(contains) // Output: true
 ```
 
 6. Replacing Substrings
+
 ```go
 import "strings"
 
@@ -156,6 +165,7 @@ fmt.Println(newStr) // Output: Hello, Golang!
 ```
 
 7. Splitting a String
+
 ```go
 import "strings"
 
@@ -165,6 +175,7 @@ fmt.Println(fruits) // Output: [apple banana cherry]
 
 ```
 8. Trimming Whitespaces
+
 ```go
 import "strings"
 
@@ -174,6 +185,7 @@ fmt.Println(trimmed) // Output: Hello, Golang!
 ```
 
 9. Converting Case
+
 ```go
 import "strings"
 
@@ -185,6 +197,7 @@ fmt.Println(upper) // Output: GOLANG
 ```
 
 10. Comparing Strings
+
 ```go
 import "strings"
 
