@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-linked-list-cycle.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-linked-list-cycle/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-linked-list-cycle.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-linked-list-cycle/)
 
 
 - Given head, the head of a linked list, determine if the linked list has a cycle in it.

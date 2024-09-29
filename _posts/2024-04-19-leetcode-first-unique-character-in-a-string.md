@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-first-unique-character-in-a-string.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-first-unique-character-in-a-string/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-first-unique-character-in-a-string.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-first-unique-character-in-a-string/)
 
 
 - Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.

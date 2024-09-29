@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 202. Happy Number](https://leetcode.com/problems/happy-number/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-happy-number.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-happy-number/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-happy-number.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-happy-number/)
 
 - Write an algorithm to determine if a number n is happy.
 

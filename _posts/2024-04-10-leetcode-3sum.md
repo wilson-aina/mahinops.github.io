@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 15. 3Sum](https://leetcode.com/problems/3sum/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-3sum.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-3sum/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-3sum.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-3sum/)
 
 - Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 

@@ -6,7 +6,7 @@ tags: [Go, Golang, DSA, Problem Solving, Data Structure, Algorithm, Programming 
 ---
 
 # 01-Go Notebook
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/1-learn-go-dsa.svg)](https://hits.sh/mokhlesurr031.github.io/posts/1-learn-go-dsa/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/1-learn-go-dsa.svg)](https://hits.sh/mahinops.github.io/posts/1-learn-go-dsa/)
 
 
 ## Data Structure

@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-first-missing-positive.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-first-missing-positive/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-first-missing-positive.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-first-missing-positive/)
 
 
 - Given an unsorted integer array nums. Return the smallest positive integer that is not present in nums.

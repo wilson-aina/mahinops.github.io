@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-invert-binary-tree.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-invert-binary-tree/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-invert-binary-tree.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-invert-binary-tree/)
 
 
 - Given the root of a binary tree, invert the tree, and return its root.

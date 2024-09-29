@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-reverse-vowels-of-a-string.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-reverse-vowels-of-a-string/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-reverse-vowels-of-a-string.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-reverse-vowels-of-a-string/)
 
 
 - Given a string s, reverse only all the vowels in the string and return it.

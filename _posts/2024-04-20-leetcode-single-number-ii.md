@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 137. Single Number II](https://leetcode.com/problems/single-number-ii/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-single-number-ii.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-single-number-ii/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-single-number-ii.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-single-number-ii/)
 
 
 - Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.

@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 66. Plus One](https://leetcode.com/problems/plus-one/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-plus-one.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-plus-one/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-plus-one.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-plus-one/)
 
 - You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
 

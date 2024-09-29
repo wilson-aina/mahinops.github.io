@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 100. Same Tree](https://leetcode.com/problems/same-tree/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-same-tree.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-same-tree/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-same-tree.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-same-tree/)
 
 
 - Given the roots of two binary trees p and q, write a function to check if they are the same or not.

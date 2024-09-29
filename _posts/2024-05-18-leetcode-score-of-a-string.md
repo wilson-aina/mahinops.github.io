@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 3110. Score of a String](https://leetcode.com/problems/score-of-a-string/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-score-of-a-string.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-score-of-a-string/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-score-of-a-string.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-score-of-a-string/)
 
 
 - You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.

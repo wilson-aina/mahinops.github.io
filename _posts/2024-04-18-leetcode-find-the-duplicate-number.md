@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-find-the-duplicate-number.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-find-the-duplicate-number/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-find-the-duplicate-number.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-find-the-duplicate-number/)
 
 
 - Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.

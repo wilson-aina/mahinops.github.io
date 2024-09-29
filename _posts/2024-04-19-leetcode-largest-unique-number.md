@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - Largest Unique Number(Premium)](https://leetcode.com/problems/largest-unique-number/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-largest-unique-number.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-largest-unique-number/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-largest-unique-number.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-largest-unique-number/)
 
 
 - Given an array of integers, identify the highest value that appears only once in the array. If no such number exists, return -1.

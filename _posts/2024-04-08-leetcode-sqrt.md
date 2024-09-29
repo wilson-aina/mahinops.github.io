@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-sqrt.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-sqrt/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-sqrt.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-sqrt/)
 
 - Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
 

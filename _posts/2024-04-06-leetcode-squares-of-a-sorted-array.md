@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-squares-of-a-sorted-array.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-squares-of-a-sorted-array/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-squares-of-a-sorted-array.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-squares-of-a-sorted-array/)
 
 - Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 

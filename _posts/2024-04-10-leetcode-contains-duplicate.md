@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-contains-duplicate.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-contains-duplicate/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-contains-duplicate.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-contains-duplicate/)
 
 - Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 

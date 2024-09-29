@@ -62,7 +62,7 @@ func writeToFile(s string, file *os.File, year, month, day int) {
 		"",
 		"",
 		fmt.Sprintf("# [Leetcode - Dummy](%s){:target=\"_blank\"}", baseURL),
-		fmt.Sprintf("[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-%s.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-%s/)", s, s),
+		fmt.Sprintf("[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-%s.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-%s/)", s, s),
 		"",
 		"",
 		"-",
@@ -74,7 +74,7 @@ func writeToFile(s string, file *os.File, year, month, day int) {
 		"```",
 	}
 
-	// [![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-arg.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-arg/)
+	// [![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-arg.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-arg/)
 
 	for _, line := range lines {
 		_, err := file.WriteString(line + "\n")

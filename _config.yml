@@ -22,10 +22,10 @@ description: >- # used by seo meta and the atom feed
   blog, mahin, mokhlesur, github, golang, devops, kubernetes
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://mokhlesurr031.github.io"
+url: "https://mahinops.github.io"
 
 github:
-  username: mokhlesurr031 # change to your github username
+  username: mahinops # change to your github username
 
 # twitter:
 #   username: twitter_username # change to your twitter username
@@ -34,11 +34,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Mokhlesur Mahin
-  email: mokhlesurr031@gmail.com # change to your email address
+  email: mokhlesur.mahin@gmail.com # change to your email address
   links:
   # The first element serves as the copyright owner's link
   # - https://twitter.com/username # change to your twitter homepage
-  - https://github.com/mokhlesurr031 # change to your github homepage
+  - https://github.com/mahinops # change to your github homepage
   # Uncomment below to add more social links
   # - https://www.facebook.com/username
   # - https://www.linkedin.com/in/mokhlesur-mahin

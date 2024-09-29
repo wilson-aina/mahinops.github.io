@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 136. Single Number](https://leetcode.com/problems/single-number/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-single-number.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-single-number/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-single-number.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-single-number/)
 
 
 - Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.

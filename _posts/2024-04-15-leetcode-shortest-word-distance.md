@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - Sortest Word Distance(Premium)](https://leetcode.com/problems/shortest-word-distance/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-shortest-word-distance.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-shortest-word-distance/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-shortest-word-distance.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-shortest-word-distance/)
 
 
 - Given an array of strings words and two different strings that already exist in the array word1 and word2, return the shortest distance between these two words in the list.

@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 704. Binary Search](https://leetcode.com/problems/binary-search/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-binary-search.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-binary-search/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-binary-search.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-binary-search/)
 
 - Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 

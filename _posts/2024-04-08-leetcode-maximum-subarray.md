@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-maximum-subarray.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-maximum-subarray/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-maximum-subarray.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-maximum-subarray/)
 
 - Given an integer array nums, find the subarray with the largest sum, and return its sum.
 

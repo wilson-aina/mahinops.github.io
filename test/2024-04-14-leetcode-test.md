@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - Dummy](https://leetcode.com/problems/test/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-test.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-test/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-test.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-test/)
 
 
 -

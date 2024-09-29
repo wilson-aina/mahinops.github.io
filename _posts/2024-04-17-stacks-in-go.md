@@ -8,7 +8,7 @@ tags: [Problem Solving, Golang, DSA, Data Structure, Programming, Algorithm, Sta
 
 # Stacks in Golang
 
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/stacks-in-go.svg)](https://hits.sh/mokhlesurr031.github.io/posts/stacks-in-go/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/stacks-in-go.svg)](https://hits.sh/mahinops.github.io/posts/stacks-in-go/)
 
 
 In Golang, a stack is a linear data structure that works on the Last-In-First-Out (LIFO) principle which means that the element which is pushed in the stack in last will be popped out first. 

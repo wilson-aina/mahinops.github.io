@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 1. Two Sum](https://leetcode.com/problems/two-sum/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-two-sum.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-two-sum/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-two-sum.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-two-sum/)
 
 - Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 

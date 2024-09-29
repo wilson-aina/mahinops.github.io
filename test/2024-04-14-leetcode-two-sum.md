@@ -7,4 +7,4 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - Dummy](https://leetcode.com/problems/two-sum/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-two-sum.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-two-sum/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-two-sum.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-two-sum/)

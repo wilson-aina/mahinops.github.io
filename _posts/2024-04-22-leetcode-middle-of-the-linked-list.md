@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-middle-of-the-linked-list.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-middle-of-the-linked-list/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-middle-of-the-linked-list.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-middle-of-the-linked-list/)
 
 
 - Given the head of a singly linked list, return the middle node of the linked list.

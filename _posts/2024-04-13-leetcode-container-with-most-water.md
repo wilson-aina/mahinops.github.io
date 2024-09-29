@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-container-with-most-water.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-container-with-most-water/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-container-with-most-water.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-container-with-most-water/)
 
 - You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 

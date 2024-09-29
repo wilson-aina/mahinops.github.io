@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-maximum-depth-of-binary-tree.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-maximum-depth-of-binary-tree/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-maximum-depth-of-binary-tree.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-maximum-depth-of-binary-tree/)
 
 
 - Given the root of a binary tree, return its maximum depth.

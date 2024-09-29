@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-search-in-rotated-sorted-array.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-search-in-rotated-sorted-array/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-search-in-rotated-sorted-array.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-search-in-rotated-sorted-array/)
 
 
 - There is an integer array nums sorted in ascending order (with distinct values).

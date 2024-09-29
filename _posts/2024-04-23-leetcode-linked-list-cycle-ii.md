@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-linked-list-cycle-ii.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-linked-list-cycle-ii/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-linked-list-cycle-ii.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-linked-list-cycle-ii/)
 
 
 - Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.

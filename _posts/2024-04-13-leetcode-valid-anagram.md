@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-valid-anagram.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-valid-anagram/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-valid-anagram.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-valid-anagram/)
 
 - Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 

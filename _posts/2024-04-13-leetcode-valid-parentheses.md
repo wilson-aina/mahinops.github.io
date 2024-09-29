@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-valid-parentheses.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-valid-parentheses/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-valid-parentheses.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-valid-parentheses/)
 
 - Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 

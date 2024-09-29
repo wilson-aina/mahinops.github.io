@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-remove-duplicates-from-sorted-array.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-remove-duplicates-from-sorted-array/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-remove-duplicates-from-sorted-array.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-remove-duplicates-from-sorted-array/)
 
 - Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 

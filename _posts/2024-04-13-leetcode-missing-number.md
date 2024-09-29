@@ -6,7 +6,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 ---
 
 # [Leetcode - 268. Missing Number](https://leetcode.com/problems/missing-number/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-missing-number.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-missing-number/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-missing-number.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-missing-number/)
 
 - Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
 

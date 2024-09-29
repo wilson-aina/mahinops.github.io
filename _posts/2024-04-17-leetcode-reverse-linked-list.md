@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-reverse-linked-list.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-reverse-linked-list/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-reverse-linked-list.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-reverse-linked-list/)
 
 
 - Given the head of a singly linked list, reverse the list, and return the reversed list.

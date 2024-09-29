@@ -7,7 +7,7 @@ tags: [Leetcode, Problem Solving, Golang, DSA, Data Structure, Programming, Algo
 
 
 # [Leetcode - 1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/){:target="_blank"}
-[![Hits](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-number-of-good-pairs.svg)](https://hits.sh/mokhlesurr031.github.io/posts/leetcode-number-of-good-pairs/)
+[![Hits](https://hits.sh/mahinops.github.io/posts/leetcode-number-of-good-pairs.svg)](https://hits.sh/mahinops.github.io/posts/leetcode-number-of-good-pairs/)
 
 
 - Given an array of integers nums, return the number of good pairs.
